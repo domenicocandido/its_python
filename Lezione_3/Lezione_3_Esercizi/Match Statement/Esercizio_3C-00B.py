@@ -11,7 +11,7 @@ Scrivere un programma in Python che chieda all'utente di inserire il proprio nom
 name:str = str(input("Inserisci il tuo nome: "))  
 gen:str = str(input("Inserisci il  tuo genere (m se sei maschio o f se sei femmina): "))
 
-#Definisco le condizonioni che in base al genere definiscono il nome dell'utente come Maschio o Femmina.
+#Definisco le condizonioni che in base al genere definiscono il nome dell'utente come di un Maschio o di una Femmina.
 match gen:
     case "m":
         print(f"{name} è un Maschio.")
