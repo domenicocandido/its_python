@@ -11,7 +11,7 @@ Scrivere un programma in Python che richieda all'utente di inserire un numero in
 '''
 
 #Definisco una variabile n richiesta all'utente.
-n:int = int(input("Inserire un numero intero: "))
+n:int = int(input("Inserire il numero di bambini: "))
 
 #Definisco le condizonioni che in base al variare di n danno una frase differente in output.
 match n:
