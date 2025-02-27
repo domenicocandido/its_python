@@ -1,6 +1,9 @@
 '''
 
-Modificare il codice dell'esercizio 3C-4, affinchè si possa scrivere un codice python che consenta all'utente di inserire il nome di un animale ed un habitat. Quando il codice dell'esercizo 3C-4 classifica l'animale inserito in una delle categorie tra mammiferi, rettili, uccelli o pesci, oltre a mostrare un messaggio a schermo, deve salvare tale categoria in una variabile animal_type. Se l'animale inserito non è classificabile in una delle quattro categorie proposte, il valore di animal_type sarà ' "unknown".
+Modificare il codice dell'esercizio 3C-4, affinchè si possa scrivere un codice python che consenta all'utente di inserire il nome di un animale ed un habitat. 
+Quando il codice dell'esercizo 3C-4 classifica l'animale inserito in una delle categorie tra mammiferi, rettili, uccelli o pesci, 
+oltre a mostrare un messaggio a schermo, deve salvare tale categoria in una variabile animal_type. Se l'animale inserito non è classificabile in una delle quattro categorie proposte, 
+il valore di animal_type sarà ' "unknown".
 
 Inserire, poi, in un dizionario il nome dell'animale, la categoria a cui esso appartiene (animal_type) e l'habitat.
 
@@ -26,9 +29,9 @@ Categorie di habitat:
 animal:str = str(input("Inserire il nome di un animale: "))
 habitat:str = str(input("Inserire l'habitat dell'animale: "))
 
-mammiferi = ["cane", "gatto", "cavello", "elefante", "leone"]
+mammiferi = ["cane", "gatto", "cavallo", "elefante", "leone", "balena", "delfino"]
 rettili = ["serpente", "lucertola", "tartaruga", "coccodrillo"]
-uccelli = ["aquila", "pappagallo", "gufo", "falco"]
+uccelli = [ "aquila", "pappagallo", "gufo", "falco", "cigno", "anatra", "gallina", "tacchino"]
 pesci = ["squalo", "trota", "salmone", "carpa"]
 animal_type = []
 
@@ -36,6 +39,12 @@ match animal.lower():
     case animal if animal in mammiferi:
         animal_type.append("mammiferi")
         print(f"L'animale {animal} appartiene alla categoria dei Mammiferi.")
+
+        match habitat:
+
+            case "acqua":
+                if 
+
     case animal if animal in rettili:
         print(f"L'animale {animal} appartiene alla categoria dei Rettili.")
     case animal if animal in uccelli:
