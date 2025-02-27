@@ -44,10 +44,5 @@ match animal.lower():
         print(f"L'animale {animal} appartiene alla categoria dei Pesci.")
     case _:
         print(f"Il programma non è in grado di classificare l'animale inserito ({animal}).")
-    
-    dictionary_animals:dict = {
-
-        "name": animal,
-        "category" : animal_type,
-        "habitat" : habitat
-    }
+        
+         
