@@ -21,7 +21,7 @@ def sum_range(a:int, b:int):  #Nelle parentesi sono presenti i due parametri del
     for i in range (a, b + 1):
         result += i
 
-    return print(result)
+    return result
 
 sum_range(1,10)
 
