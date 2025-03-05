@@ -1,5 +1,6 @@
 def preferite_book(title:str):
-    return f"One of my favorite book is {title}"
+    msg = f"One of my favorite book is {title}"
+    return msg
 
 book  = preferite_book("Python")
 print(book)
