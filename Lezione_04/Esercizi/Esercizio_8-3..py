@@ -1,5 +1,9 @@
 def make_shirt(size:str,text:str):
-    print (f"La maglia è una {size} e contiene {text}.") 
+    msg = f"La maglia è una {size} e contiene {text}." 
+    return msg
 
-make_shirt("L", "Naples")
-make_shirt(size = "M", text = "Rome")
+maglia1 = make_shirt("L", "Naples")
+maglia2 = make_shirt(size = "M", text = "Rome")
+
+print(maglia1)
+print(maglia2)
