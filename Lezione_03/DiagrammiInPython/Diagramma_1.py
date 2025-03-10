@@ -29,3 +29,4 @@ while True:
 
         case _:
             print("Inserire un'opzione valida")
+            
