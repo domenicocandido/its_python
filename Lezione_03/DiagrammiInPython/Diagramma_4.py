@@ -14,6 +14,5 @@ while True:
     
     if n_tutor == 0 and attesa > 50:
         break
-    else:
-        continue
+
         

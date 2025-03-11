@@ -1,12 +1,13 @@
 n:int = int(input("Inserire un numero intero positivo: "))
 
+
 if n % 1 == 0 and n > 0:
     sum = 0
     i = 1
-    if i > n:
-        print(sum)
-    else:
+    while i <= n:
         sum = sum + i*i
-        i += 1
+        i = i  + 1
+    print(sum)
 else:
-    print("Errore, n deve essere positivo.")    
+    print("Errore, n deve essere positivo.")
+

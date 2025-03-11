@@ -5,7 +5,7 @@ while True:
     
     opzione:str = input("Inserire un'opzione: ")
 
-    match opzione:
+    match opzione.lower():
 
         case "ingresso":
             if liberi > 0:
