@@ -1,12 +1,12 @@
 def vowelRemover(s:str) -> str:
 
-    vocals = ["a", "e", "i", "o", "u"]
+    vowels = ["a", "e", "i", "o", "u"]
 
-    if vocals not in s:
-        return s
+    if not s:
+        return " "
     
-    if s[0].lower() in  vocals:
-        return 0 + vowelRemower(s[1:])
+    if s[0].lower() in  vowels:
+        return vowelRemover(s[1:])
     else:
         return s[0] + vowelRemover(s[1:])
     
