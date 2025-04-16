@@ -9,10 +9,11 @@ p: Persona = Persona("Domenico", "Candido", 19)
 print(p)
 
 # creare un oggetto studente1 della classe studente
-studente1:Studente = Studente ("Mario", "Rossi", 20, "0123456")
+studente1:Studente = Studente("Mario", "Rossi", 20, "0123456")
 
 # visualizzare le informazioni relative all'oggetto
 print(studente1)
+
 
 # controllare se studente1 è istanza della classe Studente
 # isinstance (obj, Class) -> controlla se l'oggetto obj sia istanza della classe Class

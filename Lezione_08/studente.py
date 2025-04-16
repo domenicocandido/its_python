@@ -26,7 +26,7 @@ class Studente(Persona):
     
     # metodo setter
     # metodo che imposta il valore dell'attributo self.matricola
-    def setMatrciola(self, matricola:str) -> None:
+    def setMatricola(self, matricola:str) -> None:
         if matricola:
             self.matricola = matricola
         else:

@@ -1,8 +1,8 @@
 class Persona:
     def __init__(self, name: str, lastname:str, age: int):
-        self.name:str = ""
-        self.lastname:str = ""
-        self.age:int = 0
+        self.setName(name)
+        self.setLastname(lastname)
+        self.setAge(age)
     
     
     # metodo speciale che ritorna una stringa e che viene chiamata automaticamente quando si usa l'istruzione print(obj),
