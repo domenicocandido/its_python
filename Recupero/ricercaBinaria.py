@@ -7,8 +7,7 @@ def ricercaBinaria(numeri:list[int], numero:int) -> bool:
     while inizio <= fine:
 
         centro = (inizio + fine) // 2
-
-
+        
         if numeri[centro] == numero:
             return True
         elif numeri[centro] < numero:
@@ -18,4 +17,4 @@ def ricercaBinaria(numeri:list[int], numero:int) -> bool:
 
     return False
         
-print(ricercaBinaria([1,2,3,4,5,6,7], 6))
+print(ricercaBinaria([1,4,3,11,56,7], 11))
