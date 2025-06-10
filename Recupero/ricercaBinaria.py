@@ -12,9 +12,9 @@ def ricercaBinaria(numeri:list[int], numero:int) -> bool:
             return True
         elif numeri[centro] < numero:
             inizio = centro + 1
-        else:
+        elif numeri[centro] > numero:
             fine = centro - 1
 
     return False
         
-print(ricercaBinaria([1,4,3,11,56,7], 11))
+print(ricercaBinaria([1,4,3,12,56,7, 91, 84, 59,16], 16))

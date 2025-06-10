@@ -5,4 +5,4 @@ def recursiveFactorial(n:int) -> int:
     else:
         return (n * recursiveFactorial(n - 1))
 
-print(recursiveFactorial(3))
+print(recursiveFactorial(100))
