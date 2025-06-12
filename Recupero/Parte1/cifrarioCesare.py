@@ -11,10 +11,11 @@ def cifrarioCesare(s:str, key: int ) -> str:
 
         for char in s:
 
-            c = char.lower()
+
              
             if c in alfabeto:
-                
+
+                c = char.lower()
                 pos = alfabeto.index(char)
                 new_pos = (pos + key) % 26
                 new_s += alfabeto[new_pos]
