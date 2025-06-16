@@ -23,3 +23,6 @@ def count_unique_words(text:str) -> dict:
 
 print(count_unique_words(" Gli animali: cane, gatto, volpe, cane, gatto, canarino."))
 
+
+
+ 
