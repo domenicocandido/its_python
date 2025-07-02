@@ -27,5 +27,12 @@ print(setEsempio)
 print(len(setEsempio))
 
 
+testo:str = "Ciao, viva il gatto"
+
+def cerca_parola(parola:str, testo:str):
+
+    return parola in testo.lower()
+
+print(cerca_parola("ciao", testo))
 
 
