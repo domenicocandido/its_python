@@ -35,4 +35,3 @@ def cerca_parola(parola:str, testo:str):
 
 print(cerca_parola("ciao", testo))
 
-
