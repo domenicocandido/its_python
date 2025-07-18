@@ -156,4 +156,4 @@ def proclamaVincitore(c:Creatura):
 
     centrale = "*   " + c.getNome() + "   *"
 
-    return (f"{result}\n{"\n".join([bordo, vuota, centrale, vuota, bordo]}"
+    return f"({result}\n{"\n".join([bordo, vuota, centrale, vuota, bordo])}"
