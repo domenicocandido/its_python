@@ -12,6 +12,3 @@ def proDict() -> dict[tuple[int], int ]:
     return myDict
 
 print(proDict())
-
-
-            
